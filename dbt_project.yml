@@ -31,7 +31,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 
 models:
-  learning_dbt:
+  learn_dbt:
     # Config indicated by + and applies to all files under models/example/
     bronze:
       +materialized: table
@@ -46,5 +46,5 @@ models:
         +schema: gold
 
 seeds:
-  learning_dbt:
+  learn_dbt:
     +schema: bronze
