@@ -11,4 +11,4 @@ sources:
       - name: dim_date
       - name: dim_store
       - name: fact_returns
-      - name: items
+      - name: item_name
