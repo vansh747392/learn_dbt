@@ -39,7 +39,7 @@ models:
 
     silver:
         +materialized: table
-        schema: silver
+        +schema: silver
 
     gold:
         +materialized: table
